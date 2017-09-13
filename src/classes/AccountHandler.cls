@@ -1,5 +1,5 @@
-public with sharing class AccountHandler {
- 
+public class AccountHandler {
+
 	public static Account insertNewAccount(String name){
 		try {
 		    // This causes an exception because 
